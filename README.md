@@ -13,3 +13,5 @@ Repositório criado com o objetivo de carregar as respostas da Parte 2 da Prova 
   - [Arquivo *lista_HOME.txt*](lista_HOME.txt)
 - **Questão 3:**
   - [Script *script_area.py*](script_area.py)
+- **Questão 4:**
+  - [Scrip *script_popsim.py*](script_popsim.py)
