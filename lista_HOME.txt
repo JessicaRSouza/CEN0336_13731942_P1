@@ -1,0 +1,3 @@
+README.md
+bash_script.sh
+lista_HOME.txt
