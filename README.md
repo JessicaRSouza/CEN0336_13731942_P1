@@ -10,3 +10,4 @@ Repositório criado com o objetivo de carregar as respostas da Parte 2 da Prova 
   
 - **Questão 1:**
   - [Script *bash_script.sh*](bash_script.sh)
+  - [Arquivo *lista_HOME.txt*](lista_HOME.txt)
