@@ -8,6 +8,8 @@ Repositório criado com o objetivo de carregar as respostas da Parte 2 da Prova 
 
 # Índice
   
-- **Questão 1:**
+- **Questão 2:**
   - [Script *bash_script.sh*](bash_script.sh)
   - [Arquivo *lista_HOME.txt*](lista_HOME.txt)
+- **Questão 3:**
+  - [Script *script_area.py*](script_area.py)
