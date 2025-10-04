@@ -1,4 +1,4 @@
-#P1 - Exercício 2
+#Exercício 2
 
 #O conteúdo desse script contempla:
 

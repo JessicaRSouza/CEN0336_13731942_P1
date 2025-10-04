@@ -3,7 +3,7 @@
 
 pop_inicial = input("Digite o tamanho inicial da população: ")
 
-while pop_inicial.isdigit()==False:
+while not pop_inicial.isdigit():
 	print("Valor inválido. Por gentileza, digite um número inteiro positivo")
 	pop_inicial = input("Digite o tamanho inicial da população: ")
 

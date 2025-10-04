@@ -11,8 +11,8 @@ catetoB = sys.argv[2]
 
 
 #Definindo as condições de valores inválidos: não inteiros ou maiores/iguais a 500.
-A_invalido = catetoA.isdigit()==False or int(catetoA)>=500  #Define a invalidade para o valor do cateto A.
-B_invalido = catetoB.isdigit()==False or int(catetoB)>=500  #Define a invalidade para o valor do cateto B.
+A_invalido = not catetoA.isdigit() or int(catetoA)>=500  #Define a invalidade para o valor do cateto A.
+B_invalido = not catetoB.isdigit() or int(catetoB)>=500  #Define a invalidade para o valor do cateto B.
 #Resolvi adicionar as regras de invalidade como variáveis pois o bloco de códigos a seguir estava ficando mais extenso do que
 #o necessário, visto que para cada condição eu escrevia novamente as condições.
 

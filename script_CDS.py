@@ -32,7 +32,6 @@ if n1>tam_seq or n2>tam_seq or n3>tam_seq or n4>tam_seq or n5>tam_seq or n6>tam_
 	print("Dados inválidos. Por gentileza, certifique-se que os valores dos argumentos 2 a 7 são menores que o tamanho do argumento 1. \nCaso vá utilizar a mesma sequência, o valor máximo é igual a {}.".format(tam_seq))
 else:
 	cds1_cds2 = seq_dna[n2:n3-1]
-	print(cds1_cds2)
 	if not cds1_cds2.startswith("GT") or not cds1_cds2.endswith("AG"):
 		print("A sequência entre CDS 1 e CDS 2 não começa com os nucleotídeos GT e/ou não termina com os nucleotídeos AG.")
 	else:
