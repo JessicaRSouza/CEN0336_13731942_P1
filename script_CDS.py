@@ -4,6 +4,12 @@
 
 import sys  #Importa o módulo sys para permitir a leitura de argumentos passados via linha de comando.
 
+#Verificando se o usuário forneceu exatamente 7 argumentos (além do nome do script).
+if len(sys.argv) != 8:
+    print("Por favor, insira a sequência de DNA seguida de seis coordenadas numéricas.")
+    sys.exit(1)
+
+
 #Recebendo a sequência de DNA como o primeiro argumento fornecido pelo usuário:
 seq_dna = sys.argv[1]
 
