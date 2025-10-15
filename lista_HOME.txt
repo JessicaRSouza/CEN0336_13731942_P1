@@ -1,3 +1,4 @@
-README.md
-bash_script.sh
-lista_HOME.txt
+total 12
+drwxr-xr-x 5 jessica jessica 4096 Aug 25 14:12 CEN0336
+drwxr-xr-x 3 jessica jessica 4096 Oct 15 13:06 CEN0336_13731942_P1
+drwxr-xr-x 2 jessica jessica 4096 Sep 29 15:49 problemsets
