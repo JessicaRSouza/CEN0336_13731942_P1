@@ -9,16 +9,16 @@
 pop_inicial = input("Digite o tamanho inicial da população: ")
 
 #Enquanto o valor informado não for um número inteiro positivo, solicita novamente.
-while not pop_inicial.isdigit():
-	print("Valor inválido. Por gentileza, digite um número inteiro positivo")
+while not pop_inicial.isdigit() or int(pop_inicial)<=0:
+	print("Valor inválido. Por gentileza, digite um número inteiro positivo.")
 	pop_inicial = input("Digite o tamanho inicial da população: ")
 
 
 #Recebendo a taxa de crescimento anual.
 taxa_cres = input("Digite a taxa de crescimento anual (em decimal): ")
 
-#Verifica se a taxa contém um ponto decimal e se todos os demais caracteres são dígitos - garante que o valor seja um número positivo com ponto.
-while "." not in taxa_cres or not taxa_cres.replace(".","").isdigit():
+#Verifica se a taxa é um número decimal válido entre 0 e 1 (incluindo 0 e 1, que representam 0% e 100%, respectivamente)
+while not taxa_cres.replace(".", "").isdigit() or not (0 <= float(taxa_cres) <= 1):
 	print("Valor inválido. Por gentileza, digite um valor decimal positivo. Por exemplo, 0.05 para 5% ao ano.")
 	taxa_cres = input("Digite a taxa de crescimento anual (em decimal): ")
 
@@ -27,7 +27,7 @@ while "." not in taxa_cres or not taxa_cres.replace(".","").isdigit():
 tempo = input("Digite o número de anos: ")
 
 #Garantindo que o número de anos seja um inteiro positivo.
-while not tempo.isdigit():
+while not tempo.isdigit() or int(tempo)<=0:
 	print("Valor inválido. Por gentileza, digite um número inteiro positivo.")
 	tempo = input("Digite o número de anos: ")
 
